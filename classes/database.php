@@ -4,7 +4,7 @@ class database{
     function opencon(): PDO{
         return new PDO(
             dsn: 'mysql:host=localhost;
-            dbname=lms_app',
+            dbname=data_base_josh',
             username: 'root',
             password: '');
     }
